@@ -286,6 +286,7 @@ ARG is the number of lines to move."
 (defvar iscroll-mode-map (make-sparse-keymap)
   "Minor mode map for `iscroll-mode'.")
 
+;;;###autoload
 (define-minor-mode iscroll-mode
   "Smooth scrolling over images."
   :lighter " IS"
