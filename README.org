@@ -1,0 +1,28 @@
+#+TITLE: Iscroll.el
+
+[[./demo.gif]]
+
+Gone are the days when images jumps in and out of the window when scrolling! This package provides smooth scrolling over images.
+
+Due to some technical problems, the code is not merging into Emacs in the near futher. When it finally does merge, this package can retire.
+
+To use this package:
+
+#+begin_src
+M-x iscroll-mode RET
+#+end_src
+
+This mode remaps mouse scrolling functions and ~next/previous-line~. If you use other commands, you need to adapt them accordingly. See ~iscroll-mode-map~ and ~iscroll-mode~ for some inspiration.
+
+~iscroll-mode~ is kind of slow in programming modes, but fast in text modes. So I suggest to only enable it in text modes.
+
+* Commands
+
+- iscroll-up
+- iscroll-down
+- iscroll-next-line
+- iscroll-previous-line
+
+* Evil mode
+
+Iscroll.el doesn’t work with Evil out-of-the-box. You need to add some boilerplate.
