@@ -1,5 +1,7 @@
 #+TITLE: Iscroll.el
 
+[[https://melpa.org/#/iscroll][file:https://melpa.org/packages/iscroll-badge.svg]]
+
 [[./demo.gif]]
 
 Gone are the days when images jumps in and out of the window when scrolling! This package provides smooth scrolling over images.
