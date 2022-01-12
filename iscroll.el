@@ -213,7 +213,7 @@ function counts from visual line beginning."
 (defun iscroll-forward-line (&optional arg)
   "Smooth `forward-line'.
 ARG is the number of lines to move."
-  (interactive "p")
+  (interactive "^p")
   (let* ((arg (or arg 1))
          (abs-arg (abs arg))
          (step (if (> arg 0) 1 -1))
@@ -274,13 +274,13 @@ ARG is the number of lines to move."
 (defun iscroll-next-line (&optional arg _)
   "Smooth `next-line'.
 ARG is the number of lines to move."
-  (interactive "p")
+  (interactive "^p")
   (iscroll-forward-line arg))
 
 (defun iscroll-previous-line (&optional arg _)
   "Smooth `previous-line'.
 ARG is the number of lines to move."
-  (interactive "p")
+  (interactive "^p")
   (iscroll-forward-line (- (or arg 1))))
 
 (defvar iscroll-mode-map (make-sparse-keymap)
