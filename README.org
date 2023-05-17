@@ -2,7 +2,7 @@
 
 [[https://melpa.org/#/iscroll][file:https://melpa.org/packages/iscroll-badge.svg]]
 
-[[https://casouri.github.io/iscroll/demo.gif]]
+[[file:https://casouri.github.io/iscroll/demo.gif]]
 
 Gone are the days when images jumps in and out of the window when scrolling! This package provides smooth scrolling over images.
 
